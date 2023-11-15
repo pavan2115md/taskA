@@ -4,7 +4,7 @@ echo "Enter marks:"
 read marks
 
 if [ $marks -gt 90 ]; then
-  echo "Distinction"
+  echo "Distinctin with first class"
 elif [ $marks -ge 75 ] && [ $marks -le 90 ]; then
   echo "First class"
 elif [ $marks -ge 60 ] && [ $marks -lt 75 ]; then
